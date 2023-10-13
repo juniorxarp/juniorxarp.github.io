@@ -197,6 +197,11 @@ section.sobre .flex{
     text-align: justify;
 }
 
+.sobre .img-sobre img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+    
+}
 .btn-social button{
     width: 60px;
     height: 60px;
