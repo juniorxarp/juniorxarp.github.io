@@ -23,6 +23,7 @@ body{
 }
 
 .btn-contato button{
+    color: white;
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
@@ -200,8 +201,14 @@ section.sobre .flex{
 .sobre .img-sobre img{
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
-    
+    border-radius: 40px;    
 }
+
+.sobre .img-sobre img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 28px #19cfe771;
+}
+
 .btn-social button{
     width: 60px;
     height: 60px;
@@ -240,6 +247,8 @@ section.portifolio .flex{
 
 .img-port:hover{
     background-position: 100% 100%;
+    transform: scale(1.05);
+    box-shadow: 0 0 28px #19cfe771;
 }
 
 .overlay{
