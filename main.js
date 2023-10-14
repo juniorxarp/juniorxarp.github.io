@@ -30,12 +30,17 @@ menuItem.forEach((item)=>
 
 var nyexp = document.querySelector('#btn-menu')
 var menuIcon = document.querySelector('#menu-mobile')
+var overlay = document.querySelector('#overlay-menu')
 
 nyexp.addEventListener('click', function(){
     menuIcon.classList.add('expandir')
 })
 
 menuIcon.addEventListener('click', function(){
+    menuIcon.classList.remove('expandir')
+})
+
+overlay.addEventListener('click', function(){
     menuIcon.classList.remove('expandir')
 })
 

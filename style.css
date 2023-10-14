@@ -107,8 +107,10 @@ header nav.menu-desktop ul li:hover {
     transition: .5s;
 }
 
-.menu-mobile.expandir{
+.menu-mobile.expandir {
     width: 70%;
+    transform: scale(1.05);
+    box-shadow: 0 0 28px #19cfe771;
 }
 
 .menu-mobile.expandir ~ .overlay-menu{
