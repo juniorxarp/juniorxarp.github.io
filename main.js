@@ -1,13 +1,4 @@
 
-
-// menu mobile js
-let btnMenu = document.getElementById('btn-menu')
-let menu = document.getElementById('menu-mobile')
-
-btnMenu.addEventListener('click', ()=>{
-    menu.classList.add('abrir-menu')
-})
-
 function ativaLetra(elemento){
     const arrTexto = elemento.innerHTML.split('');
     elemento.innerHTML = '';
@@ -37,10 +28,17 @@ menuItem.forEach((item)=>
 )
 // function para expander
 
-var nyexp = document.querySelector('#ny-exp')
-var menuIcon = document.querySelector('#menu')
+var nyexp = document.querySelector('#btn-menu')
+var menuIcon = document.querySelector('#menu-mobile')
 
 nyexp.addEventListener('click', function(){
     menuIcon.classList.toggle('expandir')
 })
+
+// let btnMenu = document.getElementById('btn-menu')
+// let menu = document.getElementById('menu-mobile')
+
+// btnMenu.addEventListener.add('click', ()=>{
+//     menu.classList.add('abrir')
+// })
 

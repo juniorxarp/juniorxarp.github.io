@@ -107,11 +107,11 @@ header nav.menu-desktop ul li:hover {
     transition: .5s;
 }
 
-.nenu-mobile.abrir-menu {
+.menu-mobile.expandir{
     width: 70%;
 }
 
-.nenu-mobile.abrir-menu ~ .overlay-menu{
+.menu-mobile.expandir ~ .overlay-menu{
     display: block;
 }
 
@@ -144,8 +144,8 @@ header nav.menu-desktop ul li:hover {
 }
 
 .overlay-menu {
-    background-color: #000000c4;
-    width: 100%;
+    background-color: #000000d5;
+    width: 50%;
     height: 100%;
     position: fixed;
     top: 0;
