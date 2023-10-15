@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Francisco Machado">
         <!-- GOOGLE FONTS -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,6 +18,11 @@
         <script src="main.js" defer></script>
 
         <title>Francisco Machado</title>
+        <style>
+            html {
+                scroll-behavior: smooth;
+            }
+        </style>
     </head>
 <body>
     
@@ -30,9 +36,9 @@
             <nav class="menu-desktop">
                 <ul>
                     <li><a href="#top">Início</a></li>
-                    <li><a href="#">Especialidades</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Projetos</a></li>
+                    <li><a href="#esp">Especialidades</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#port">Projetos</a></li>
                 </ul>
             </nav>
 
@@ -54,11 +60,11 @@
 
                 <nav>
                     <ul>
-                        <li><a href="#">Início</a></li>
-                        <li><a href="#">Especialidades</a></li>
-                        <li><a href="#">Sobre</a></li>
-                        <li><a href="#">Projetos</a></li>
-                        <li><a href="#">Contato</a></li>
+                        <li><a href="#top">Início</a></li>
+                        <li><a href="#esp">Especialidades</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#port">Projetos</a></li>
+                        <li><a href="#social">Contato</a></li>
                     </ul>
                 </nav>
 
@@ -102,7 +108,7 @@
 
         </section> <!--TOPO DO SITE-->
 
-        <section class="especialidades">
+        <section class="especialidades" id="esp">
             <div class="interface">
                 <h2 class="titulo">MINHAS  <span>ESPECIALIDADES.</span></h2>
                 <div class="flex">
@@ -128,7 +134,7 @@
 
         </section>
 
-        <section class="sobre">
+        <section class="sobre" id="sobre">
             <div class="interface">
                 <div class="flex">
                     <div class="img-sobre">
@@ -152,7 +158,7 @@
             </div>
         </section>
 
-        <section class="portfolio">
+        <section class="portfolio" id="port">
             <div class="inteface">
                 <h2 class="titulo">MEU <span>PORTIFÓLIO.</span></h2>
                 <div class="flex">
@@ -190,7 +196,7 @@
                         <div class="logo-footer">
                             <img src="images/logo.png" alt="">
                         </div>
-                        <div class="btn-social">
+                        <div class="btn-social" id="social">
                             <a href="https://github.com/juniorxarp"><button><i class="bi bi-github"></i></button></a>
                             <a href="https://discord.gg/9CfMaQcEZb"><button><i class="bi bi-discord"></i></button></a>
                             <a href="https://www.youtube.com/@NYwork"><button><i class="bi bi-youtube"></i></button></a>

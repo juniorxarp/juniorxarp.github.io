@@ -45,3 +45,26 @@ overlay.addEventListener('click', function(){
 })
 
 
+// rolagem 
+// var RolarEsp = document.querySelector('#esp')
+// var RolarSobre = document.querySelector('#sobre')
+
+// RolarEsp.addEventListener('click', ()=>{
+//     document.getElementById('especialidades').scrollIntoView({
+//         behavior:'smooth'
+//     })
+// })
+
+
+
+
+// document.addEventListener('DOMContentLoaded', function() {
+//     const irAte = document.getElementById('especialidades');
+
+//    irAte.addEventListener('click', function() {
+//         // Rolar suavemente para a âncora do topo
+//         document.getElementById('especialidades').scrollIntoView({
+//             behavior: 'smooth'
+//         });
+//     });
+// });
